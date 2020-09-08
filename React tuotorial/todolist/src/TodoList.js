@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoItem from './TodoItem'
 
 class TodoList extends Component {
 
@@ -20,25 +21,23 @@ class TodoList extends Component {
     };
     this.setState({ inputMsg: '' });
   }
-  // handleDelete = (ind)=>{
-  //   const oldMessages = [...this.state.messages]
-  //   this.setState({
-  //     messages: oldMessages.splice(ind,1),
-  //   });
-  // }
+  handleDelete = (ind) => {
+    console.log(this);
+    console.log(ind);
+    const newMessages = [...this.state.messages]
+    
+    newMessages.splice(ind, 1)
+    this.setState({
+      messages: newMessages,
+      inputMsg: '' ,
+    });
+    console.log(this.state.messages)
+  }
 
   render() {
     return (
       <div>
-        <div>
-          <ul>
-            {this.state.messages.map((msg,ind) =>
-              <li>
-                <span>{msg}</span>
-                <span onClick={this.handleDelete(ind)}>X</span>
-              </li>)}
-          </ul>
-        </div>
+        <TodoItem messages={this.state.messages} handleDelete={this.handleDelete.bind(this)} />
         <input type="text" onChange={this.handleInput} />
         <button onClick={this.hadleSubmit}>submit</button>
       </div>
