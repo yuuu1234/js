@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import UserOutput from './UserOutput.js';
+import UserInput from './UserInput.js';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [userState, setUserState] = useState({
+    users: [
+      { userName: 'May' },
+      { userName: 'Emily' },
+      { userName: 'Yu' },
+    ],
+  });
+
+  const inputChangeHandler = (evt, index) => {
+    let newUsers = [];
+    newUsers = userState;
+    newUsers[index] = evt.target.value;
+    setUserState({
+      users: newUsers,
+    });
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UserInput onChange={() => { inputChangeHandler.bind(this,[0]) }} /> */}
+      <UserOutput userName={userState.users[0].userName} />
+      {/* <UserInput onChange={() => { inputChangeHandler.bind(this, [1]) }} />
+      <UserOutput userName={userState.users[1].userName} />
+      <UserInput onChange={() => { inputChangeHandler.bind(this, [2]) }} />
+      <UserOutput userName={userState.users[2].userName} /> */}
     </div>
   );
-}
+
+};
 
 export default App;
