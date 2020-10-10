@@ -1,9 +1,9 @@
 import React from 'react';
 
-const UserOutput = (userName) => {
+const UserOutput = userName => {
   return (
     <div>
-      <p>{userName}! nice to meet you!</p>
+      <p> {userName.userName} nice to meet you!</p>
     </div>
   );
 };
