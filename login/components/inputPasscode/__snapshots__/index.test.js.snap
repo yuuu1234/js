@@ -1,0 +1,835 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input passcode renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginTop": 23.75,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#97B5E2",
+            "borderRadius": 50,
+            "borderWidth": 1,
+            "height": 13,
+            "marginLeft": 13,
+            "marginRight": 13,
+            "width": 13,
+          },
+          Object {
+            "backgroundColor": "#97B5E2",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 345,
+        "justifyContent": "center",
+        "marginTop": 23.75,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 19,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-1"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-2"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              2
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-3"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              3
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 19,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-4"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              4
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-5"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-6"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              6
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 19,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-7"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              7
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-8"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              8
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-9"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              9
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 19,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 75,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-0"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#003D9A",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#003D9A",
+                  "fontSize": 36,
+                  "lineHeight": 43,
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "marginLeft": 14.25,
+            "marginRight": 14.25,
+            "width": 75,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="login-passCode-del"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "height": 75,
+                "justifyContent": "center",
+                "width": 75,
+              }
+            }
+          >
+            <SvgMock />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

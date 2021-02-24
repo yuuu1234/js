@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withSMSCodeTemplate should render component correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <div
+    testId="mock-header"
+  >
+    Header
+  </div>
+  <div
+    handleNavigation={[Function]}
+    testId="mock-main"
+  >
+    Main
+  </div>
+  <div
+    handleNavigation={[Function]}
+    testId="mock-footer"
+  >
+    Footer
+  </div>
+</View>
+`;

@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SMSCodeForm should render component correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#003D9A",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "marginBottom": 54,
+        "maxWidth": 277,
+        "textAlign": "center",
+      }
+    }
+  >
+    We Are Sending You An SMS Code
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="btn-inputSMSCode-0"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="btn-inputSMSCode-1"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="btn-inputSMSCode-2"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="btn-inputSMSCode-3"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="btn-inputSMSCode-4"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="btn-inputSMSCode-5"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F8F8F8",
+          "borderColor": "#C4C4C4",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 50,
+          "justifyContent": "center",
+          "margin": 5,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      autoCorrect={false}
+      blurOnSubmit={true}
+      keyboardType="number-pad"
+      maxLength={6}
+      onChangeText={[Function]}
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "opacity": 0,
+          "position": "absolute",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;

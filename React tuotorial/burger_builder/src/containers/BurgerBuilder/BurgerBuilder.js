@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Auxiliary'
-import Burger from '../../components/Burger/Burger'
+import Aux from '../../hoc/Auxiliary';
+import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
-import Modal from '../../components/UI/Modal/Modal'
-import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary'
-import Backdrop from '../../components/UI/Backdrop/Backdrop'
+import Modal from '../../components/UI/Modal/Modal';
+import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import axios from '../../axios-orders'
 const INGREDIENT_PRICES = {
   salad: 0.5,
   cheese: 0.4,
@@ -59,14 +59,30 @@ class BurgerBuilder extends Component {
     this.setState({ purchasable: sum > 0 })
   }
   clickOrderHandler = () => {
-    this.setState({purchasing: true})
+    this.setState({ purchasing: true })
   }
-  cancelHandler = () =>{
-    this.setState({purchasing: false})
+  cancelHandler = () => {
+    this.setState({ purchasing: false })
   }
 
   continueHandler = () => {
-    alert('Are you sure to checkout')
+    // alert('Are you sure to checkout')
+    const order = {
+      ingredients: this.state.ingredients,
+      price: this.state.totalPrice,
+      customer: {
+        name: 'Yu Wang',
+        address: {
+          street: "prince",
+          country: "China",
+        },
+        email: 'test@test.com',
+      }
+    }
+    axios.post('/orders.json', order)
+      .then(response => console.log(response))
+      .catch(error => console.log(error));
+
   }
 
   render() {
@@ -78,14 +94,12 @@ class BurgerBuilder extends Component {
     }
     return (
       <Aux>
-        <Backdrop show={this.state.purchasing}>
-          <Modal>
-            <OrderSummary continueClick={this.continueHandler}
-             cancelClick={this.cancelHandler}
-             ingredients={this.state.ingredients}
-             price={this.state.totalPrice} />
-          </Modal>
-        </Backdrop>
+        <Modal show={this.state.purchasing} modalClosed={this.cancelHandler}>
+          <OrderSummary continueClick={this.continueHandler}
+            cancelClick={this.cancelHandler}
+            ingredients={this.state.ingredients}
+            price={this.state.totalPrice} />
+        </Modal>
         <Burger ingredients={this.state.ingredients} />
         <BuildControls
           ingredientAdded={this.addIngredientHandler}

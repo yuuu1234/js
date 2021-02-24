@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "height": 80,
+    }
+  }
+>
+  <SvgMock
+    width={750}
+  />
+</View>
+`;

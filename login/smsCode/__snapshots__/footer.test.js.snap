@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render component correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 50,
+        "textAlign": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text>
+        Code Expires in 
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#003D9A",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        60 
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#003D9A",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        secs
+      </Text>
+    </View>
+  </View>
+  Object {
+    "children": Array [
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Verify
+      </Text>,
+    ],
+    "props": Object {
+      "accessibilityLabel": "FormButton",
+      "accessible": true,
+      "focusable": true,
+      "onClick": [Function],
+      "onResponderGrant": [Function],
+      "onResponderMove": [Function],
+      "onResponderRelease": [Function],
+      "onResponderTerminate": [Function],
+      "onResponderTerminationRequest": [Function],
+      "onStartShouldSetResponder": [Function],
+      "style": Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#003D9A",
+          "borderRadius": 15,
+          "height": 41,
+          "justifyContent": "center",
+          "marginBottom": 16,
+          "marginHorizontal": 49,
+          "marginTop": 6,
+        },
+        false,
+        Object {},
+      ],
+    },
+    "type": "View",
+  }
+</View>
+`;

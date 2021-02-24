@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPassCodeTemplate should render component correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <div
+        testId="mock-header"
+      >
+        Header
+      </div>
+      <div
+        handleNavigation={[Function]}
+        testId="mock-main"
+      >
+        Main
+      </div>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "marginBottom": 20,
+      }
+    }
+  >
+    <div
+      handleNavigation={[Function]}
+      testId="mock-footer"
+    >
+      Footer
+    </div>
+  </View>
+</View>
+`;

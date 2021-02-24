@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render component correctly 1`] = `
+<View>
+  Object {
+    "children": Array [
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Login
+      </Text>,
+    ],
+    "props": Object {
+      "accessibilityLabel": "FormButton",
+      "accessible": true,
+      "focusable": true,
+      "onClick": [Function],
+      "onResponderGrant": [Function],
+      "onResponderMove": [Function],
+      "onResponderRelease": [Function],
+      "onResponderTerminate": [Function],
+      "onResponderTerminationRequest": [Function],
+      "onStartShouldSetResponder": [Function],
+      "style": Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#003D9A",
+          "borderRadius": 15,
+          "height": 41,
+          "justifyContent": "center",
+          "marginBottom": 16,
+          "marginHorizontal": 49,
+          "marginTop": 6,
+        },
+        false,
+        Object {},
+      ],
+    },
+    "type": "View",
+  }
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "color": "#929292",
+        "fontSize": 16,
+        "justifyContent": "center",
+        "textDecorationLine": "underline",
+      }
+    }
+  >
+    Forgot your passcode?
+  </Text>
+  <Modal
+    hardwareAccelerated={false}
+    onDismiss={[Function]}
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

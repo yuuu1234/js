@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withAuthTemplate should render component correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <div
+          testId="mock-header"
+        >
+          Header
+        </div>
+        <div
+          handleNavigation={[Function]}
+          testId="mock-form"
+        >
+          Form
+        </div>
+      </View>
+    </RCTScrollView>
+    <div
+      handleNavigation={[Function]}
+      testId="mock-footer"
+    >
+      Footer
+    </div>
+  </View>
+</RCTSafeAreaView>
+`;
